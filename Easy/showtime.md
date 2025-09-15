@@ -143,8 +143,9 @@ Ejecutaremos otra vez sudo -l para ver que podemos ejecutar como root y nos sald
 
 <img width="663" height="145" alt="image" src="https://github.com/user-attachments/assets/a0f5a9ed-92e2-4898-94c7-290042cec009" />
 
-###Escalada de privilegios a root
+### Escalada de privilegios a root
 Ejecutaremos otra vez sudo -l para ver que podemos ejecutar como root y nos saldrá lo siguiente:
 
 <img width="660" height="145" alt="image" src="https://github.com/user-attachments/assets/4ab4d4eb-def7-45f3-aa8b-fbf00304a103" />
+
 
