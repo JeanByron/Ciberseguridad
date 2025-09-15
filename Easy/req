@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2025.7.4" exportTime="Sun Sep 14 21:50:31 COT 2025">
+  <item>
+    <time>Sun Sep 14 21:49:27 COT 2025</time>
+    <url><![CDATA[http://172.17.0.2/login_page/auth.php]]></url>
+    <host ip="172.17.0.2">172.17.0.2</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/login_page/auth.php]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[UE9TVCAvbG9naW5fcGFnZS9hdXRoLnBocCBIVFRQLzEuMQ0KSG9zdDogMTcyLjE3LjAuMg0KQ29udGVudC1MZW5ndGg6IDM1DQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTANCkFjY2VwdC1MYW5ndWFnZTogZXMtNDE5LGVzO3E9MC45DQpPcmlnaW46IGh0dHA6Ly8xNzIuMTcuMC4yDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTM5LjAuMC4wIFNhZmFyaS81MzcuMzYNCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC43DQpSZWZlcmVyOiBodHRwOi8vMTcyLjE3LjAuMi9sb2dpbl9wYWdlL2luZGV4LnBocA0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlLCBicg0KQ29va2llOiBQSFBTRVNTSUQ9ZHIzdDc2cGVhYmRtZmY2a2dtZjFnYWVlMmsNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCg0KdXN1YXJpbz1hZG1pbiZjb250cmFzZSVDMyVCMWE9YWRtaW4=]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>

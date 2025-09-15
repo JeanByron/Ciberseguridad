@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Sep  8 16:01:29 2025 as: /usr/lib/nmap/nmap -p 22,80 -sCV -oN targeted.txt 10.0.2.15
+Nmap scan report for 10.0.2.15
+Host is up (0.000034s latency).
+
+PORT   STATE  SERVICE VERSION
+22/tcp closed ssh
+80/tcp closed http
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  8 16:01:42 2025 -- 1 IP address (1 host up) scanned in 13.71 seconds
