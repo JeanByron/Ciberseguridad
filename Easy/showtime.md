@@ -130,3 +130,21 @@ Al ejecutar el comando de sudo -l obtenemos que dicho usuario podra ingresar com
 <img width="663" height="147" alt="image" src="https://github.com/user-attachments/assets/85eb5f47-d95e-4e30-8840-3b495835730d" />
 
 Mirando en [GTFOBins](https://gtfobins.github.io/gtfobins/posh/#sudo) podremos encontrar la manera de cambiarnos de usuario por el cuál ejecute el comando, en este caso luciano.
+
+```
+sudo -u luciano /bin/posh
+whoami
+```
+Obteniendo:
+
+<img width="381" height="46" alt="image" src="https://github.com/user-attachments/assets/f98dc5be-34c5-4d85-af05-f91eab6a7833" />
+
+Ejecutaremos otra vez sudo -l para ver que podemos ejecutar como root y nos saldrá lo siguiente:
+
+<img width="663" height="145" alt="image" src="https://github.com/user-attachments/assets/a0f5a9ed-92e2-4898-94c7-290042cec009" />
+
+###Escalada de privilegios a root
+Ejecutaremos otra vez sudo -l para ver que podemos ejecutar como root y nos saldrá lo siguiente:
+
+<img width="660" height="145" alt="image" src="https://github.com/user-attachments/assets/4ab4d4eb-def7-45f3-aa8b-fbf00304a103" />
+
